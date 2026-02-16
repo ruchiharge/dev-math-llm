@@ -1,0 +1,160 @@
+{
+  "model": "gemma3:4b",
+  "total_questions": 102,
+  "correct": 83,
+  "incorrect": 19,
+  "errors": 0,
+  "accuracy_percent": 81.37,
+  "error_rate_percent": 0.0,
+  "avg_latency_sec": 5.308,
+  "template_breakdown": [
+    {
+      "template_id": "tmpl_1",
+      "correct": 28,
+      "total": 34,
+      "accuracy": 82.35
+    },
+    {
+      "template_id": "tmpl_2",
+      "correct": 28,
+      "total": 34,
+      "accuracy": 82.35
+    },
+    {
+      "template_id": "tmpl_3",
+      "correct": 27,
+      "total": 34,
+      "accuracy": 79.41
+    }
+  ],
+  "variation_breakdown": [
+    {
+      "variation_id": "var_1",
+      "correct": 42,
+      "total": 51,
+      "accuracy": 82.35
+    },
+    {
+      "variation_id": "var_2",
+      "correct": 41,
+      "total": 51,
+      "accuracy": 80.39
+    }
+  ],
+  "incorrect_samples": [
+    {
+      "problem_id": "PROB_006",
+      "input": "Solve: What is the probability of rolling a number greater than 4 on a die?",
+      "expected": "1/3",
+      "got": "3/6"
+    },
+    {
+      "problem_id": "PROB_006",
+      "input": "Solve: What is the probability of rolling a number greater than 4 on a die? (as decimal)",
+      "expected": "0.333",
+      "got": "0.42857142857142855"
+    },
+    {
+      "problem_id": "PROB_006",
+      "input": "Compute: What is the probability of rolling a number greater than 4 on a die?",
+      "expected": "1/3",
+      "got": "1/6"
+    },
+    {
+      "problem_id": "PROB_006",
+      "input": "Compute: What is the probability of rolling a number greater than 4 on a die? (as decimal)",
+      "expected": "0.333",
+      "got": "0.4"
+    },
+    {
+      "problem_id": "PROB_006",
+      "input": "Evaluate: What is the probability of rolling a number greater than 4 on a die?",
+      "expected": "1/3",
+      "got": "3/6"
+    },
+    {
+      "problem_id": "PROB_006",
+      "input": "Evaluate: What is the probability of rolling a number greater than 4 on a die? (as decimal)",
+      "expected": "0.333",
+      "got": "0.42857142857142855"
+    },
+    {
+      "problem_id": "PROB_007",
+      "input": "Evaluate: What is the probability of drawing a face card from a standard deck? (as decimal)",
+      "expected": "0.231",
+      "got": "0.25"
+    },
+    {
+      "problem_id": "PROB_014",
+      "input": "Solve: What is the probability of rolling a number less than 3 on a die?",
+      "expected": "1/3",
+      "got": "1/6"
+    },
+    {
+      "problem_id": "PROB_014",
+      "input": "Solve: What is the probability of rolling a number less than 3 on a die? (as decimal)",
+      "expected": "0.333",
+      "got": "0.6667"
+    },
+    {
+      "problem_id": "PROB_014",
+      "input": "Compute: What is the probability of rolling a number less than 3 on a die?",
+      "expected": "1/3",
+      "got": "1/6"
+    },
+    {
+      "problem_id": "PROB_014",
+      "input": "Compute: What is the probability of rolling a number less than 3 on a die? (as decimal)",
+      "expected": "0.333",
+      "got": "0.6667"
+    },
+    {
+      "problem_id": "PROB_014",
+      "input": "Evaluate: What is the probability of rolling a number less than 3 on a die?",
+      "expected": "1/3",
+      "got": "1/6"
+    },
+    {
+      "problem_id": "PROB_014",
+      "input": "Evaluate: What is the probability of rolling a number less than 3 on a die? (as decimal)",
+      "expected": "0.333",
+      "got": "0.6666666666666666"
+    },
+    {
+      "problem_id": "PROB_017",
+      "input": "Solve: What is the probability of drawing a number card (2-10) from a standard deck?",
+      "expected": "9/13",
+      "got": "11/52"
+    },
+    {
+      "problem_id": "PROB_017",
+      "input": "Solve: What is the probability of drawing a number card (2-10) from a standard deck? (as decimal)",
+      "expected": "0.692",
+      "got": "0.4"
+    },
+    {
+      "problem_id": "PROB_017",
+      "input": "Compute: What is the probability of drawing a number card (2-10) from a standard deck?",
+      "expected": "9/13",
+      "got": "11/52"
+    },
+    {
+      "problem_id": "PROB_017",
+      "input": "Compute: What is the probability of drawing a number card (2-10) from a standard deck? (as decimal)",
+      "expected": "0.692",
+      "got": "0.4"
+    },
+    {
+      "problem_id": "PROB_017",
+      "input": "Evaluate: What is the probability of drawing a number card (2-10) from a standard deck?",
+      "expected": "9/13",
+      "got": "11/52"
+    },
+    {
+      "problem_id": "PROB_017",
+      "input": "Evaluate: What is the probability of drawing a number card (2-10) from a standard deck? (as decimal)",
+      "expected": "0.692",
+      "got": "0.4"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+problem_id,template_id,variation_id,input,expected_answer,model_response,is_correct,error_type
+PROB_001,tmpl_1,var_1,Solve: What is the probability of rolling a 6 on a fair die?,1/6,1/6,True,CORRECT
+PROB_001,tmpl_1,var_2,Solve: What is the probability of rolling a 6 on a fair die? (as decimal),0.167,0.16666666666666666,True,CORRECT
+PROB_001,tmpl_2,var_1,Compute: What is the probability of rolling a 6 on a fair die?,1/6,1/6,True,CORRECT
+PROB_001,tmpl_2,var_2,Compute: What is the probability of rolling a 6 on a fair die? (as decimal),0.167,0.16666666666666666,True,CORRECT
+PROB_001,tmpl_3,var_1,Evaluate: What is the probability of rolling a 6 on a fair die?,1/6,1/6,True,CORRECT
+PROB_001,tmpl_3,var_2,Evaluate: What is the probability of rolling a 6 on a fair die? (as decimal),0.167,0.16666666666666666,True,CORRECT
+PROB_002,tmpl_1,var_1,Solve: What is the probability of flipping heads on a fair coin?,1/2,0.5,True,CORRECT
+PROB_002,tmpl_1,var_2,Solve: What is the probability of flipping heads on a fair coin? (as decimal),0.5,0.5,True,CORRECT
+PROB_002,tmpl_2,var_1,Compute: What is the probability of flipping heads on a fair coin?,1/2,0.5,True,CORRECT
+PROB_002,tmpl_2,var_2,Compute: What is the probability of flipping heads on a fair coin? (as decimal),0.5,0.5,True,CORRECT
+PROB_002,tmpl_3,var_1,Evaluate: What is the probability of flipping heads on a fair coin?,1/2,0.5,True,CORRECT
+PROB_002,tmpl_3,var_2,Evaluate: What is the probability of flipping heads on a fair coin? (as decimal),0.5,0.5,True,CORRECT
+PROB_003,tmpl_1,var_1,Solve: What is the probability of drawing a heart from a standard deck?,1/4,1/4,True,CORRECT
+PROB_003,tmpl_1,var_2,Solve: What is the probability of drawing a heart from a standard deck? (as decimal),0.25,0.25,True,CORRECT
+PROB_003,tmpl_2,var_1,Compute: What is the probability of drawing a heart from a standard deck?,1/4,1/4,True,CORRECT
+PROB_003,tmpl_2,var_2,Compute: What is the probability of drawing a heart from a standard deck? (as decimal),0.25,0.25,True,CORRECT
+PROB_003,tmpl_3,var_1,Evaluate: What is the probability of drawing a heart from a standard deck?,1/4,1/4,True,CORRECT
+PROB_003,tmpl_3,var_2,Evaluate: What is the probability of drawing a heart from a standard deck? (as decimal),0.25,1/4,True,CORRECT
+PROB_004,tmpl_1,var_1,Solve: What is the probability of rolling an even number on a die?,1/2,1/2,True,CORRECT
+PROB_004,tmpl_1,var_2,Solve: What is the probability of rolling an even number on a die? (as decimal),0.5,1/2,True,CORRECT
+PROB_004,tmpl_2,var_1,Compute: What is the probability of rolling an even number on a die?,1/2,1/2,True,CORRECT
+PROB_004,tmpl_2,var_2,Compute: What is the probability of rolling an even number on a die? (as decimal),0.5,1/2,True,CORRECT
+PROB_004,tmpl_3,var_1,Evaluate: What is the probability of rolling an even number on a die?,1/2,1/2,True,CORRECT
+PROB_004,tmpl_3,var_2,Evaluate: What is the probability of rolling an even number on a die? (as decimal),0.5,1/2,True,CORRECT
+PROB_005,tmpl_1,var_1,Solve: What is the probability of drawing an ace from a standard deck?,1/13,1/13,True,CORRECT
+PROB_005,tmpl_1,var_2,Solve: What is the probability of drawing an ace from a standard deck? (as decimal),0.077,1/13,True,CORRECT
+PROB_005,tmpl_2,var_1,Compute: What is the probability of drawing an ace from a standard deck?,1/13,1/13,True,CORRECT
+PROB_005,tmpl_2,var_2,Compute: What is the probability of drawing an ace from a standard deck? (as decimal),0.077,1/13,True,CORRECT
+PROB_005,tmpl_3,var_1,Evaluate: What is the probability of drawing an ace from a standard deck?,1/13,1/13,True,CORRECT
+PROB_005,tmpl_3,var_2,Evaluate: What is the probability of drawing an ace from a standard deck? (as decimal),0.077,1/13,True,CORRECT
+PROB_006,tmpl_1,var_1,Solve: What is the probability of rolling a number greater than 4 on a die?,1/3,3/6,False,WRONG_FRACTION
+PROB_006,tmpl_1,var_2,Solve: What is the probability of rolling a number greater than 4 on a die? (as decimal),0.333,0.42857142857142855,False,CALCULATION_ERROR
+PROB_006,tmpl_2,var_1,Compute: What is the probability of rolling a number greater than 4 on a die?,1/3,1/6,False,WRONG_FRACTION
+PROB_006,tmpl_2,var_2,Compute: What is the probability of rolling a number greater than 4 on a die? (as decimal),0.333,0.4,False,CALCULATION_ERROR
+PROB_006,tmpl_3,var_1,Evaluate: What is the probability of rolling a number greater than 4 on a die?,1/3,3/6,False,WRONG_FRACTION
+PROB_006,tmpl_3,var_2,Evaluate: What is the probability of rolling a number greater than 4 on a die? (as decimal),0.333,0.42857142857142855,False,CALCULATION_ERROR
+PROB_007,tmpl_1,var_1,Solve: What is the probability of drawing a face card from a standard deck?,3/13,12/52,True,CORRECT
+PROB_007,tmpl_1,var_2,Solve: What is the probability of drawing a face card from a standard deck? (as decimal),0.231,12/52,True,CORRECT
+PROB_007,tmpl_2,var_1,Compute: What is the probability of drawing a face card from a standard deck?,3/13,12/52,True,CORRECT
+PROB_007,tmpl_2,var_2,Compute: What is the probability of drawing a face card from a standard deck? (as decimal),0.231,12/52,True,CORRECT
+PROB_007,tmpl_3,var_1,Evaluate: What is the probability of drawing a face card from a standard deck?,3/13,12/52,True,CORRECT
+PROB_007,tmpl_3,var_2,Evaluate: What is the probability of drawing a face card from a standard deck? (as decimal),0.231,0.25,False,CLOSE_ERROR
+PROB_008,tmpl_1,var_1,Solve: What is the probability of flipping two heads in a row?,1/4,1/4,True,CORRECT
+PROB_008,tmpl_1,var_2,Solve: What is the probability of flipping two heads in a row? (as decimal),0.25,0.25,True,CORRECT
+PROB_008,tmpl_2,var_1,Compute: What is the probability of flipping two heads in a row?,1/4,1/4,True,CORRECT
+PROB_008,tmpl_2,var_2,Compute: What is the probability of flipping two heads in a row? (as decimal),0.25,0.25,True,CORRECT
+PROB_008,tmpl_3,var_1,Evaluate: What is the probability of flipping two heads in a row?,1/4,1/4,True,CORRECT
+PROB_008,tmpl_3,var_2,Evaluate: What is the probability of flipping two heads in a row? (as decimal),0.25,0.25,True,CORRECT
+PROB_009,tmpl_1,var_1,Solve: What is the probability of drawing a red card from a standard deck?,1/2,1/2,True,CORRECT
+PROB_009,tmpl_1,var_2,Solve: What is the probability of drawing a red card from a standard deck? (as decimal),0.5,0.5,True,CORRECT
+PROB_009,tmpl_2,var_1,Compute: What is the probability of drawing a red card from a standard deck?,1/2,1/2,True,CORRECT
+PROB_009,tmpl_2,var_2,Compute: What is the probability of drawing a red card from a standard deck? (as decimal),0.5,0.5,True,CORRECT
+PROB_009,tmpl_3,var_1,Evaluate: What is the probability of drawing a red card from a standard deck?,1/2,1/2,True,CORRECT
+PROB_009,tmpl_3,var_2,Evaluate: What is the probability of drawing a red card from a standard deck? (as decimal),0.5,0.5,True,CORRECT
+PROB_010,tmpl_1,var_1,Solve: What is the probability of rolling a 1 or 2 on a die?,1/3,2/6,True,CORRECT
+PROB_010,tmpl_1,var_2,Solve: What is the probability of rolling a 1 or 2 on a die? (as decimal),0.333,0.3333,True,CORRECT
+PROB_010,tmpl_2,var_1,Compute: What is the probability of rolling a 1 or 2 on a die?,1/3,2/6,True,CORRECT
+PROB_010,tmpl_2,var_2,Compute: What is the probability of rolling a 1 or 2 on a die? (as decimal),0.333,0.3333,True,CORRECT
+PROB_010,tmpl_3,var_1,Evaluate: What is the probability of rolling a 1 or 2 on a die?,1/3,2/6,True,CORRECT
+PROB_010,tmpl_3,var_2,Evaluate: What is the probability of rolling a 1 or 2 on a die? (as decimal),0.333,0.3333,True,CORRECT
+PROB_011,tmpl_1,var_1,Solve: What is the probability of drawing a king from a standard deck?,1/13,1/13,True,CORRECT
+PROB_011,tmpl_1,var_2,Solve: What is the probability of drawing a king from a standard deck? (as decimal),0.077,0.0769230769,True,CORRECT
+PROB_011,tmpl_2,var_1,Compute: What is the probability of drawing a king from a standard deck?,1/13,1/13,True,CORRECT
+PROB_011,tmpl_2,var_2,Compute: What is the probability of drawing a king from a standard deck? (as decimal),0.077,0.0769230769,True,CORRECT
+PROB_011,tmpl_3,var_1,Evaluate: What is the probability of drawing a king from a standard deck?,1/13,1/13,True,CORRECT
+PROB_011,tmpl_3,var_2,Evaluate: What is the probability of drawing a king from a standard deck? (as decimal),0.077,0.0769230769,True,CORRECT
+PROB_012,tmpl_1,var_1,Solve: What is the probability of rolling an odd number on a die?,1/2,1/2,True,CORRECT
+PROB_012,tmpl_1,var_2,Solve: What is the probability of rolling an odd number on a die? (as decimal),0.5,1/2,True,CORRECT
+PROB_012,tmpl_2,var_1,Compute: What is the probability of rolling an odd number on a die?,1/2,1/2,True,CORRECT
+PROB_012,tmpl_2,var_2,Compute: What is the probability of rolling an odd number on a die? (as decimal),0.5,1/2,True,CORRECT
+PROB_012,tmpl_3,var_1,Evaluate: What is the probability of rolling an odd number on a die?,1/2,1/2,True,CORRECT
+PROB_012,tmpl_3,var_2,Evaluate: What is the probability of rolling an odd number on a die? (as decimal),0.5,0.5,True,CORRECT
+PROB_013,tmpl_1,var_1,Solve: What is the probability of drawing a spade from a standard deck?,1/4,1/4,True,CORRECT
+PROB_013,tmpl_1,var_2,Solve: What is the probability of drawing a spade from a standard deck? (as decimal),0.25,1/4,True,CORRECT
+PROB_013,tmpl_2,var_1,Compute: What is the probability of drawing a spade from a standard deck?,1/4,1/4,True,CORRECT
+PROB_013,tmpl_2,var_2,Compute: What is the probability of drawing a spade from a standard deck? (as decimal),0.25,0.25,True,CORRECT
+PROB_013,tmpl_3,var_1,Evaluate: What is the probability of drawing a spade from a standard deck?,1/4,1/4,True,CORRECT
+PROB_013,tmpl_3,var_2,Evaluate: What is the probability of drawing a spade from a standard deck? (as decimal),0.25,1/4,True,CORRECT
+PROB_014,tmpl_1,var_1,Solve: What is the probability of rolling a number less than 3 on a die?,1/3,1/6,False,WRONG_FRACTION
+PROB_014,tmpl_1,var_2,Solve: What is the probability of rolling a number less than 3 on a die? (as decimal),0.333,0.6667,False,CALCULATION_ERROR
+PROB_014,tmpl_2,var_1,Compute: What is the probability of rolling a number less than 3 on a die?,1/3,1/6,False,WRONG_FRACTION
+PROB_014,tmpl_2,var_2,Compute: What is the probability of rolling a number less than 3 on a die? (as decimal),0.333,0.6667,False,CALCULATION_ERROR
+PROB_014,tmpl_3,var_1,Evaluate: What is the probability of rolling a number less than 3 on a die?,1/3,1/6,False,WRONG_FRACTION
+PROB_014,tmpl_3,var_2,Evaluate: What is the probability of rolling a number less than 3 on a die? (as decimal),0.333,0.6666666666666666,False,CALCULATION_ERROR
+PROB_015,tmpl_1,var_1,Solve: What is the probability of drawing a black card from a standard deck?,1/2,1/2,True,CORRECT
+PROB_015,tmpl_1,var_2,Solve: What is the probability of drawing a black card from a standard deck? (as decimal),0.5,0.5,True,CORRECT
+PROB_015,tmpl_2,var_1,Compute: What is the probability of drawing a black card from a standard deck?,1/2,1/2,True,CORRECT
+PROB_015,tmpl_2,var_2,Compute: What is the probability of drawing a black card from a standard deck? (as decimal),0.5,0.5,True,CORRECT
+PROB_015,tmpl_3,var_1,Evaluate: What is the probability of drawing a black card from a standard deck?,1/2,1/2,True,CORRECT
+PROB_015,tmpl_3,var_2,Evaluate: What is the probability of drawing a black card from a standard deck? (as decimal),0.5,0.5,True,CORRECT
+PROB_016,tmpl_1,var_1,Solve: What is the probability of flipping tails on a fair coin?,1/2,0.5,True,CORRECT
+PROB_016,tmpl_1,var_2,Solve: What is the probability of flipping tails on a fair coin? (as decimal),0.5,0.5,True,CORRECT
+PROB_016,tmpl_2,var_1,Compute: What is the probability of flipping tails on a fair coin?,1/2,0.5,True,CORRECT
+PROB_016,tmpl_2,var_2,Compute: What is the probability of flipping tails on a fair coin? (as decimal),0.5,0.5,True,CORRECT
+PROB_016,tmpl_3,var_1,Evaluate: What is the probability of flipping tails on a fair coin?,1/2,0.5,True,CORRECT
+PROB_016,tmpl_3,var_2,Evaluate: What is the probability of flipping tails on a fair coin? (as decimal),0.5,0.5,True,CORRECT
+PROB_017,tmpl_1,var_1,Solve: What is the probability of drawing a number card (2-10) from a standard deck?,9/13,11/52,False,WRONG_FRACTION
+PROB_017,tmpl_1,var_2,Solve: What is the probability of drawing a number card (2-10) from a standard deck? (as decimal),0.692,0.4,False,CALCULATION_ERROR
+PROB_017,tmpl_2,var_1,Compute: What is the probability of drawing a number card (2-10) from a standard deck?,9/13,11/52,False,WRONG_FRACTION
+PROB_017,tmpl_2,var_2,Compute: What is the probability of drawing a number card (2-10) from a standard deck? (as decimal),0.692,0.4,False,CALCULATION_ERROR
+PROB_017,tmpl_3,var_1,Evaluate: What is the probability of drawing a number card (2-10) from a standard deck?,9/13,11/52,False,WRONG_FRACTION
+PROB_017,tmpl_3,var_2,Evaluate: What is the probability of drawing a number card (2-10) from a standard deck? (as decimal),0.692,0.4,False,CALCULATION_ERROR
